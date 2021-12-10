@@ -1,6 +1,9 @@
-This is git aliases
+# This is git aliases
+
+> Add these aliases to your ```C/Program Files/Git/etc/profile.d/aliases.sh```
 
 ```bash
+
 # Git
 alias gi="git init"
 alias ga="git add"
@@ -9,12 +12,12 @@ alias gc="git commit -m"
 alias gp="git push"
 alias gs="git status"
 alias gl="git log"
-alias giaa="git init && git add ."
-alias giaac="git init && git add . && git commit -m"
-alias giaach="git init && git add . && git commit -m \"hot commit\""
-alias gaac="git add . && git commit -m"
-alias gaach="git add . && git commit -m \"hot commit\""
-alias gaachp="git add . && git commit -m \"hot commit\" && git push"
+alias gigaa="git init && git add ."
+alias gigaagc="git init && git add . && git commit -m"
+alias gigaagch="git init && git add . && git commit -m \"hot commit\""
+alias gaagc="git add . && git commit -m"
+alias gaagch="git add . && git commit -m \"hot commit\""
+alias gaagchgp="git add . && git commit -m \"hot commit\" && git push"
 
 # Laravel Aliases
 alias art='php artisan'
